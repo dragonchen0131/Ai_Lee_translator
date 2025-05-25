@@ -12,7 +12,7 @@ cd ~/yourProjectFolder
 git clone https://github.com/RVC-Boss/GPT-SoVITS.git
 cd GPT-SoVITS
 
-#install needed tools
+#install needed toolkits
 pip install -r requirements.txt
 
 # activate API
