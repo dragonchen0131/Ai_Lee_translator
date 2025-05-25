@@ -15,7 +15,7 @@ By using transformer and voice model to train a unique voice to speak ancient ch
  jieba == 0.42.1
  pytorch_lightning == 1.9 
  kenlm
-## Voice model part:
+## Voice model part
  This project runs in 
  python 3.10
 ### Do these things below before you run this code:
