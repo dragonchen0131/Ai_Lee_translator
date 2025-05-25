@@ -15,3 +15,4 @@ pip install -r requirements.txt
 
 # activate API
 python api_v2.py --tts_config config.py --bind_addr 127.0.0.1 --port 9880
+'''bash
