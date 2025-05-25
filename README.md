@@ -1,8 +1,8 @@
 # Ai_Lee_translator
  An ancient/modern chinese translator with a unique voice
 ## This project runs in python 3.10
-## Do these thing below before you run this code:
-run these bash code in your cmd
+## Do these things below before you run this code:
+run these bash codes in your cmd
 ```bash
 #change direct to ur folder
 cd ~/yourProjectFolder
