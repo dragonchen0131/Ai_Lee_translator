@@ -3,7 +3,7 @@
 ## This project runs in python 3.10
 ##Do these thing below before you run this code:
 run these bash code in your cmd
-'''
+'''bash
 #change direct to ur folder
 cd ~/yourProjectFolder
 
@@ -15,4 +15,4 @@ pip install -r requirements.txt
 
 # activate API
 python api_v2.py --tts_config config.py --bind_addr 127.0.0.1 --port 9880
-'''bash
+'''
