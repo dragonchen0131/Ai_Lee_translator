@@ -1,4 +1,5 @@
 # Ai_Lee_translator
+# Voice model part:
  An ancient/modern chinese translator with a unique voice
 ## This project runs in python 3.10
 ## Do these things below before you run this code:
