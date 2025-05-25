@@ -1,0 +1,46 @@
+config:
+  data:
+    max_eval_sample: 8
+    max_sec: 54
+    num_workers: 4
+    pad_val: 1024
+  inference:
+    top_k: 15
+  model:
+    EOS: 1024
+    dropout: 0
+    embedding_dim: 512
+    head: 16
+    hidden_dim: 512
+    linear_units: 2048
+    n_layer: 24
+    phoneme_vocab_size: 732
+    random_bert: 0
+    vocab_size: 1025
+  optimizer:
+    decay_steps: 40000
+    lr: 0.01
+    lr_end: 0.0001
+    lr_init: 1.0e-05
+    warmup_steps: 2000
+  output_dir: logs/Stli10/logs_s1_v2
+  pretrained_s1: GPT_SoVITS/pretrained_models/gsv-v2final-pretrained/s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt
+  train:
+    batch_size: 12
+    epochs: 20
+    exp_name: Stli10
+    gradient_clip: 1.0
+    half_weights_save_dir: GPT_weights_v2
+    if_dpo: false
+    if_save_every_weights: true
+    if_save_latest: true
+    precision: 16-mixed
+    save_every_n_epoch: 5
+    seed: 1234
+  train_phoneme_path: logs/Stli10/2-name2text.txt
+  train_semantic_path: logs/Stli10/6-name2semantic.tsv
+output_dir: !!python/object/apply:pathlib.PosixPath
+- logs
+- Stli10
+- logs_s1_v2
+is_train: true
